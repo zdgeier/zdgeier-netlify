@@ -11,6 +11,8 @@
   {{ with $stylesheet.css }}
     <link href="{{ relURL . }}" rel="stylesheet">
   {{ end }}
+
+  {{ partial "schema.html" . }}
 </head>
 
 <body>
